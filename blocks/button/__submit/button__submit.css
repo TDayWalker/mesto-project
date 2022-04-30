@@ -1,0 +1,20 @@
+.button__submit {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 14px 125px 19px;
+    background-color: #000;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .button__submit {
+        padding: 14px 82px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+

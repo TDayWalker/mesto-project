@@ -1,0 +1,23 @@
+.button__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    transform: translate(130%, -100%);
+    opacity: 1;
+    transition: opacity .2s;
+}
+
+.button__close:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 768px) {
+    .button__close {
+        transform: translate(0%, -128%);
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,13 @@
+.profile__wrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 42px 0 30px;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .profile__wrapper {
+        margin-top: 22px;
+    }
+}
