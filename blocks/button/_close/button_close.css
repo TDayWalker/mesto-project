@@ -8,6 +8,9 @@
     transform: translate(130%, -100%);
     opacity: 1;
     transition: opacity .2s;
+    background-image: url(../../../images/close-btn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .button_close:hover {
