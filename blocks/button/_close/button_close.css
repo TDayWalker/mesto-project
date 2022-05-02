@@ -1,4 +1,4 @@
-.button__close {
+.button_close {
     position: absolute;
     top: 0;
     right: 0;
@@ -10,12 +10,12 @@
     transition: opacity .2s;
 }
 
-.button__close:hover {
+.button_close:hover {
     opacity: .6;
 }
 
 @media screen and (max-width: 768px) {
-    .button__close {
+    .button_close {
         transform: translate(0%, -128%);
         width: 20px;
         height: 20px;

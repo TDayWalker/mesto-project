@@ -1,0 +1,15 @@
+.button_edit_position {
+    margin: 1px 5px 9px 7px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+}
+
+@media screen and (max-width: 768px) {
+    .button_edit_position {
+        position: absolute;
+        margin: 0;
+        top: 10px;
+        right: 15px;
+    }
+}

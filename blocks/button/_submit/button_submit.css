@@ -1,5 +1,5 @@
-.button__submit {
-    font-family: 'Inter';
+.button_submit {
+    font-family: 'Inter','Times New Roman', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -8,10 +8,15 @@
     padding: 14px 125px 19px;
     background-color: #000;
     border-radius: 2px;
+    transition: opacity .3s;
+}
+
+.button_submit:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
-    .button__submit {
+    .button_submit {
         padding: 14px 82px;
         font-size: 14px;
         line-height: 17px;

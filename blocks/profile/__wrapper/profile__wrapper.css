@@ -1,13 +1,27 @@
 .profile__wrapper {
-    display: flex;
+    display: grid;
+    grid-auto-columns: 1fr 40px;
+    grid-template-rows: 1fr 39px;
     flex-direction: column;
     box-sizing: border-box;
     padding: 0 42px 0 30px;
-    position: relative;
+    grid-column-gap: 18px;
+    align-items: end;
 }
 
 @media screen and (max-width: 768px) {
     .profile__wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+        row-gap: 14px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .profile__wrapper {
         margin-top: 22px;
+        align-items: center;
     }
 }

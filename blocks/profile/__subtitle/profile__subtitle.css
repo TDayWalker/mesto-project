@@ -1,17 +1,18 @@
 .profile__subtitle {
-    font-family: Inter, 'Times New Roman', sans-serif;
+    font-family: 'Inter', 'Times New Roman', sans-serif;
     font-style: normal;
     color: #fff;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     margin: 0;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }
 
 @media screen and (max-width: 768px) {
     .profile__subtitle {
         font-size: 14px;
         line-height: 17px;
-        margin-bottom: 36px;
     }
 }

@@ -1,12 +1,14 @@
 .profile__title {
-    font-family: Inter, 'Times New Roman', sans-serif;
+    font-family: 'Inter', 'Times New Roman', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 42px;
     line-height: 48px;
     box-sizing: border-box;
     color: #fff;
-    margin: 0 0 16px 0;
+    margin: 0;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 @media screen and (max-width: 768px) {
