@@ -1,4 +1,8 @@
-.button_edit {
+.button__edit {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
     width: 24px;
     height: 24px;
     opacity: 1;
@@ -6,14 +10,21 @@
     background-image: url(../../../images/edit-btn.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 1px 5px 9px 7px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
-.button_edit:hover {
+.button__edit:hover {
     opacity: .6;
 }
 
 @media screen and (max-width: 768px) {
-    .button_edit {
+    .button__edit {
         width: 18px;
         height: 18px;
+        position: absolute;
+        margin: 0;
+        top: 10px;
+        right: 15px;
     }
 }

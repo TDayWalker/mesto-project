@@ -1,4 +1,8 @@
-.button_close {
+.button__close {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
     position: absolute;
     top: 0;
     right: 0;
@@ -13,12 +17,12 @@
     background-size: contain;
 }
 
-.button_close:hover {
+.button__close:hover {
     opacity: .6;
 }
 
 @media screen and (max-width: 768px) {
-    .button_close {
+    .button__close {
         transform: translate(0%, -128%);
         width: 20px;
         height: 20px;

@@ -1,4 +1,8 @@
-.button_like {
+.button__like {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
     width: 22px;
     height: 19px;
     opacity: 1;
@@ -8,6 +12,6 @@
     background-size: auto auto;
 }
 
-.button_like:hover {
+.button__like:hover {
     opacity: 0.5;
 }
