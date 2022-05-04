@@ -1,4 +1,4 @@
-.button__like {
+.card__button_like {
     padding: 0;
     border: none;
     background-color: transparent;
@@ -7,11 +7,11 @@
     height: 19px;
     opacity: 1;
     transition: opacity .3s;
-    background-image: url(../../../images/like.svg);
+    background-image: url(../../../../images/like.svg);
     background-repeat: no-repeat;
     background-size: auto auto;
 }
 
-.button__like:hover {
+.card__button_like:hover {
     opacity: 0.5;
 }

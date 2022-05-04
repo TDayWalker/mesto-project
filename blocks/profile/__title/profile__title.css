@@ -4,6 +4,7 @@
     font-weight: 500;
     font-size: 42px;
     line-height: 48px;
+    max-width: 294px;
     box-sizing: border-box;
     color: #fff;
     margin: 0;
@@ -18,5 +19,6 @@
     .profile__title {
         font-size: 27px;
         line-height: 33px;
+        max-width: 230px;
     }
 }
