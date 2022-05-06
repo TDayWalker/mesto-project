@@ -1,4 +1,4 @@
-.popup__button_close {
+.popup__button_form_close {
     position: absolute;
     top: 0;
     right: 0;
@@ -8,18 +8,18 @@
     transform: translate(130%, -100%);
     opacity: 1;
     transition: opacity .2s;
-    background-image: url(../../../../images/close-btn.svg);
+    background-image: url(../../../../../images/close-btn.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
 }
 
-.popup__button_close:hover {
+.popup__button_form_close:hover {
     opacity: .6;
 }
 
 @media screen and (max-width: 768px) {
-    .popup__button_close {
+    .popup__button_form_close {
         transform: translate(0%, -128%);
         width: 20px;
         height: 20px;
